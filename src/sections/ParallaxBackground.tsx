@@ -3,7 +3,7 @@ export default function ParallaxBackground() {
     <div
       className="fixed inset-0 z-0"
       style={{
-        backgroundImage: 'url(/images/background.png)',
+        backgroundImage: 'url(/axcenter/public/images/background.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',

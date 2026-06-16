@@ -124,7 +124,7 @@ export default function Cluster() {
           style={{ maxWidth: '900px' }}
         >
           <img
-            src="/images/cluster.png"
+            src="/axcenter/public/images/cluster.png"
             alt="GPU 클러스터 서버 랙"
             className="h-auto w-full object-cover"
           />
