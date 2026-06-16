@@ -1,4 +1,5 @@
-import { useEffect, RefObject } from 'react';
+import { useEffect } from 'react';
+import type { RefObject } from 'react';
 
 export function useScrollReveal(ref: RefObject<HTMLElement | null>, options?: IntersectionObserverInit) {
   useEffect(() => {
