@@ -77,7 +77,7 @@ export default function Hero() {
         <div ref={rightRef} className="mt-16 flex w-full items-center justify-center lg:mt-0 lg:w-[40%] lg:justify-end lg:pr-16">
           <div className="relative w-full max-w-xl overflow-visible" style={{ borderRadius: '0 0 0 9999px' }}>
             <img
-              src="/axcenter/public/images/axc_logo.png"
+              src={`${import.meta.env.BASE_URL}images/axc_logo.png`}
               alt="AI 혁신 센터 로고"
               className="h-auto w-full object-contain"
             />

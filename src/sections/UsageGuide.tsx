@@ -58,7 +58,7 @@ export default function UsageGuide() {
             GPU 사용을 위한 안내
           </h2>
           <img
-            src="/axcenter/public/images/pipeline.png"
+            src={`${import.meta.env.BASE_URL}images/pipeline.png`}
             alt="신청 안내"
             className="mx-auto w-[680px] h-auto rounded-3xl border border-slate-200 shadow-xl shadow-slate-200/40"
           />
