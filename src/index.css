@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 100% 98%;
+    --foreground: 215 16% 12%;
+    --card: 210 100% 98%;
+    --card-foreground: 215 16% 12%;
+    --popover: 210 100% 98%;
+    --popover-foreground: 215 16% 12%;
+    --primary: 206 100% 56%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 208 100% 90%;
+    --secondary-foreground: 215 18% 15%;
+    --muted: 210 60% 95%;
+    --muted-foreground: 215 16% 40%;
+    --accent: 204 100% 60%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 348 100% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 210 25% 90%;
+    --input: 210 20% 96%;
+    --ring: 206 90% 75%;
+    --radius: 0.5rem;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-slate-950;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Black Han Sans', sans-serif;
+  }
+
+  .scroll-reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+
+  .scroll-reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
